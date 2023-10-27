@@ -1,1 +1,18 @@
+function calcular_1() {
+    var a = valor_a.value;
+    var b = valor_b.value;
+    var x = valor_x.value;
+    var calculo = -b/a;
 
+    if(a == 0){
+        alert("a dev ser diferente de zer0");      
+    }
+    else{
+        if( x == calculo){
+            alert("YESSS");
+        }
+    else{
+        alert("errado :c");
+    }
+    }
+}
