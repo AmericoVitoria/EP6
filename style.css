@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 252, 245);
+    background-color: rgb(226, 214, 208);
 }
 
 header{
@@ -49,5 +49,13 @@ main{
 }
 
 .final{
+    text-align: center;
+}
+
+#marcacao_nome{
+    color: rgb(71, 46, 39);
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding: 10px;
     text-align: center;
 }
