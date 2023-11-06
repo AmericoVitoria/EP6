@@ -1,5 +1,6 @@
 body{
-    background-color: rgb(226, 214, 208);
+    background-color: rgb(255, 252, 245);
+    border: #524036;
 }
 
 header{
@@ -12,7 +13,7 @@ main{
 }
 .titulo1{
     color: #524036;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -23,12 +24,10 @@ main{
     -webkit-text-stroke-color: #524036; /* cor da borda */
     font-family: "Comic Sans MS"; /* geralmente pedem pra nao usar essa fonte por ser nada profissional*/
     font-size: 30px;
-    padding: 30px;
-
 }
 
 .explicaçao {
-    padding: 100px;
+    padding: 10px;
     margin: 50px;
 
 }
@@ -38,6 +37,7 @@ main{
     border: 2px solid rgb(0, 0, 0);
     background-color: aliceblue;
     padding: 30px;
+    box-sizing: border-box;
 }
 
 .exemplo{
@@ -48,14 +48,69 @@ main{
     text-align: center;
 }
 
-.final{
+.ai{
     text-align: center;
+    color:  rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: #524036; /* cor da borda */
+    font-family: "Comic Sans MS";
 }
 
 #marcacao_nome{
-    color: rgb(71, 46, 39);
     background-color: aliceblue;
-    border: 2px solid black;
-    padding: 10px;
+}
+
+.esquerdista{
+    border: solid;
+    text-align: left;
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+h3{
+    color: #524036;
+    font-size: 30px;
+}
+
+.letra{
+    font-size: 26px;
+}
+
+.botao{
+
+    text-align: center;
+}
+
+.verde{
+    color: rgb(22, 59, 34);
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: rgb(0, 248, 45); /* cor da borda */
+    text-align: center;
+}
+
+.vermelho{
+    color: rgb(75, 32, 32);
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: rgb(248, 0, 0);
+    text-align: center;
+}
+
+.pomni{
+    text-align: center;
+    border: dotted;
+    display: inline-block;
+}
+
+.caca{
+    text-align: center;
+}
+
+.probabilidade{
+    font-size: 30px;
+}
+
+.despedida{
+    font-size: 30px;
+    color:  rgb(153, 129, 113);
     text-align: center;
 }
