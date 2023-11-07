@@ -1,6 +1,9 @@
-body{
-    background-color: rgb(255, 252, 245);
-    border: #524036;
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    body{
+        background-color: rgb(255, 252, 245);
+        border: #524036;
+    }
+    
 }
 
 header{
@@ -112,5 +115,32 @@ h3{
 .despedida{
     font-size: 30px;
     color:  rgb(153, 129, 113);
+    text-align: center;
+}
+
+
+.diga,.supera{
+    display: inline-block;
+}
+
+.diga{
+    width:386px;
+    height:386px;
+    text-align: center;
+}
+
+.aaa{
+    background-color: rgb(240, 248, 255);
+    font-size: 30px;
+    text-align: center;
+    color:  rgb(255, 255, 255);
+    -webkit-text-stroke-width: 2px; /* largura da borda */
+    -webkit-text-stroke-color: #524036; /* cor da borda */
+    font-family: "Comic Sans MS";
+}
+
+.bol{
+    width: 600px;
+    height: 100px;
     text-align: center;
 }
