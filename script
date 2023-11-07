@@ -22,6 +22,12 @@ function funcao_resposta(){
     var resp2 = document.querySelector('input[name="quest_2"]:checked');
     var resp3 = document.querySelector('input[name="quest_3"]:checked');
     var resp4 = document.querySelector('input[name="quest_4"]:checked');
+    var resp5 = document.querySelector('input[name="quest_5"]:checked');
+    var resp6 = document.querySelector('input[name="quest_6"]:checked');
+    var resp7 = document.querySelector('input[name="quest_7"]:checked');
+    var resp8 = document.querySelector('input[name="quest_8"]:checked');
+    var resp9 = document.querySelector('input[name="quest_9"]:checked');
+    var resp10 = document.querySelector('input[name="quest_10"]:checked');
 
     var contador = 0;
 
@@ -40,7 +46,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_2").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_2").innerHTML = "Errada, pois o evento de retirar uma ficha com um número maior ou igual a 12. Assim, A={12, 13, 14, 15, 16} e n(A) = 5 . Ainda, n(Ω) = 16."
 
         }
         if(resp3.value == "correta"){
@@ -48,7 +54,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_3").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_3").innerHTML = "Errada, Um dado possui 6 lados com números de 1 a 6. Sendo assim, o número de possibilidades no lançamento é 6. Um evento favorável à escolha de um número maior que 4 é obter 5 ou 6, ou seja, há duas possibilidades.!  P= 2/6 = 1/3"
 
         }
         if(resp4.value == "correta"){
@@ -56,7 +62,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_4").innerHTML = "Errada, pois a soma dos quadrados dos catetos é igual ao quadrada da hipotenusa!"
+            document.getElementById("resp_errada_4").innerHTML = "Errada, pois Se o evento favorável é obter um cliente, então o número de possibilidades é 9. Como o restaurante está com 13 pessoas no total, a probabilidade de escolher aleatoriamente um cliente é dada por: P= 9/13= 0,69 = 69%!"
 
         }
         if(resp5.value == "correta"){
@@ -64,7 +70,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_5").innerHTML = "ERRADA"
+            document.getElementById("resp_errada_5").innerHTML = "ERRADA O alfabeto possui 26 letras, das quais 5 são vogais. Portanto, a probabilidade é: P= 5/26 = 0,19 = 19% "
 
         }
         if(resp6.value == "correta"){
@@ -72,7 +78,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_6").innerHTML = "ERRADA"
+            document.getElementById("resp_errada_6").innerHTML = "ERRADA, Todos os 8 números da sequência são números primos, ou seja, são divisíveis apenas pelo número 1 e por ele mesmo. Portanto, a probabilidade de escolher um número primo na sequência é: P= 8/8 = 1 = 100%"
             
         }
         if(resp7.value == "correta"){
@@ -80,7 +86,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_7").innerHTML = "ERRADA"
+            document.getElementById("resp_errada_7").innerHTML = "ERRADA, O total de alunos na turma é 15, sendo 8 do sexo feminino e 7 do sexo masculino. Como o evento favorável é escolher uma aluna, existem 8 possibilidades de escolha"
             
         }
         if(resp8.value == "correta"){
@@ -88,15 +94,15 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_8").innerHTML = "ERRADA"
-            
+            document.getElementById("resp_errada_8").innerHTML = "ERRADA, A semana é composta de 7 dias. A probabilidade de escolher uma segunda-feira é 1/7 e a probabilidade de escolher uma sexta-feira também é 1/7."
+        
         }
         if(resp9.value == "correta"){
             document.getElementById("resp_correta_9").innerHTML = "Correta!"
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_9").innerHTML = "ERRADA"
+            document.getElementById("resp_errada_9").innerHTML = "ERRADA, Na excursão havia um total de 6 + 8 + 9 + 7 = 30 pessoas. Esta é a quantidade de elementos no espaço amostral.A quantidade de elementos no evento ser mulher e casada é 6. Assim, a probabilidade é calculada pela razão: P=6/30 = 1/5"
             
         }
         if(resp10.value == "correta"){
@@ -104,7 +110,7 @@ function funcao_resposta(){
             contador = contador + 1;
         }
         else{
-            document.getElementById("resp_errada_10").innerHTML = "ERRADA"
+            document.getElementById("resp_errada_10").innerHTML = "ERRADA, O espaço amostral é: reto ómega maiúsculo igual a chaveta esquerda 1 vírgula 2 vírgula 3 vírgula 4 vírgula 5 vírgula 6 chaveta direita O evento sair um número maior que quatro é: reto E igual a chaveta esquerda 5 vírgula 6 chaveta direita. A probabilidade é a razão entre o número de elementos no conjunto evento, dividido pelo número de elementos do espaço amostral. p=2/6 = 1/3 "
             
         }
         document.getElementById("quantos_acertos").innerHTML = "Você acertou " + contador + " questões!";
